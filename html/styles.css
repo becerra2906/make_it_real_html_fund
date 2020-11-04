@@ -1,0 +1,16 @@
+#prueba_i {
+    color: brown;
+    font-size: medium;
+}
+
+h2,
+h3 {
+    color: red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.lista {
+    color: blue;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
