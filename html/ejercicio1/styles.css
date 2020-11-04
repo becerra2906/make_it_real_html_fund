@@ -1,0 +1,12 @@
+h1 {
+    color: aquamarine;
+    background-color: blueviolet;
+    font: 1em arial;
+}
+
+.texto1 {
+    background-color: brown;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: smaller;
+    color: cadetblue;
+}
