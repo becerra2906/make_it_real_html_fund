@@ -10,6 +10,8 @@ h3 {
 }
 
 .lista {
+    padding: 10px;
+    background-color: aqua;
     color: blue;
     font-style: italic;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
