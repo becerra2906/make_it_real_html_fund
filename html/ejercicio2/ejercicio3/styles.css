@@ -1,0 +1,16 @@
+body {
+    font-size: smaller;
+}
+
+.lista_ordered {
+    background-color: yellow;
+}
+
+.lista_no_ordered {
+    color: white;
+    background-color: black;
+}
+
+#final_texto {
+    color: red
+}
