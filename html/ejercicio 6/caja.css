@@ -1,0 +1,10 @@
+.caja1 {
+    border: solid red;
+    padding: 25px;
+    margin: 15px;
+    text-align: justify;
+}
+
+#caja2 {
+    border: seagreen double;
+}

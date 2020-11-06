@@ -4,3 +4,11 @@ body {
     margin: 10px;
     align-content: center;
 }
+
+#name_box {
+    margin: 0 auto;
+}
+
+#surname_box {
+    margin: 0 auto;
+}
