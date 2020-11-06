@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas en HTML</title>
+    <link rel="stylesheet" href="clase_styles.css">
+</head>
+
+<body>
+    <!--las tablas de HTML se crean con la etiqueda table. Las filas se crean con tr (table row) y los datos se ponen con td (table data). th es table header. Colspan define que tan largo va a ser el tamaño del contenido de esa columna. Rowspan define el tamaño que ocupa en esa fila-->
+
+    <table class="tabla">
+        <thead>
+            <tr>
+                <th>Dato 1</td>
+                    <th>Dato 2</td>
+                        <th>Dato 3</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Jorge</td>
+                <td>Martinez</td>
+                <td>Londoño</td>
+            </tr>
+            <tr>
+                <td colspan="2">prueba 1</td>
+                <td>prueba 2</td>
+                <td>prueba 3</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
