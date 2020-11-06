@@ -1,0 +1,9 @@
+td,
+th,
+tr {
+    background-color: black;
+    color: blanchedalmond;
+    border: blanchedalmond solid 1px;
+    border-collapse: collapse;
+    border-style: dotted;
+}
