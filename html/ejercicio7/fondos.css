@@ -1,0 +1,9 @@
+.background {
+    width: 800px;
+    height: 800px;
+    background-color: red;
+    background-image: url(https://lh3.googleusercontent.com/proxy/YDKeJxrimC6kTum8UO6JqpAm59KqGTLTDfWF0LpW7BJ_uDhAJkYXApSjV47Hn3cZPUVAy2IWttHXUKKDBe7xJSVyY7t_OKSOxb6Z1D332cdj4O7HtCHcxta_PuZqRdc);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 100px 100px;
+}
