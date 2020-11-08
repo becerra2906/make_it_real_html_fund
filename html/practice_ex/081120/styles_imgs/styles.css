@@ -1,0 +1,79 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.title {
+    background-color: brown;
+    color: aliceblue;
+    text-align: center;
+    font-size: small;
+    height: 100px;
+    padding-top: 25px;
+    background-image: url(/styles_imgs/coffee-bean.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: 10px;
+    justify-content: space-evenly;
+}
+
+.our_company {
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 25px;
+    padding-top: 15px;
+    color: ivory;
+    background-color: brown;
+}
+
+.product_off {
+    height: 800px;
+    width: 100%;
+    text-align: center;
+    background-color: beige;
+    padding-top: 1cm;
+}
+
+.lista_prod {
+    text-align: center;
+    width: 40%;
+    padding-left: 30%;
+    padding-right: 15%;
+}
+
+.lista_prod img {
+    height: 15px;
+    align-content: center;
+}
+
+.footer {
+    align-content: space-around;
+    text-align: center;
+    background-color: saddlebrown;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+    padding-top: 25px;
+}
+
+.footer li {
+    align-content: space-around;
+    display: inline;
+    text-align: center;
+}
+
+.footer p {
+    text-align: center;
+    padding-left: 50px;
+}
+
+.footer a {
+    {
+        text-align: center;
+        padding-left: 50px;
+    }
+}
