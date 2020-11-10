@@ -1,21 +1,29 @@
 header {
-    border: black solid 2px;
-}
+    border: #9d7055 5px double;
+    background-color: #2b150b;
+    color: #9d7055;
+    height: 100x;
+    width: 100x;}
+
 
 #titulo {
     text-align: center;
+    font-size: smaller;
     padding: 10px;
-    background-image: url('https://drive.google.com/file/d/1-sBi1-igU2gMrQHkqSYwv8ik5uDGtqIx/view?usp=sharing');
-    background-size: 10px
+    height: 100px;
+    width: 100%;
 }
 
 body {
     font-family: 'Courier New', Courier, monospace;
-    background-color: cornsilk;
+    background-color: whitesmoke;
+    color:  #9d7055;;
 }
+
 
 #informacion_general {
     padding-left: 100px;
+    
 }
 
 #contactanos {
