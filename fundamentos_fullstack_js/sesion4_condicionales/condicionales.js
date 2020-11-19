@@ -1,0 +1,8 @@
+var x = 10;
+
+if (x>10){
+console.log("El número es mayor a 10");}
+else if (x===10){
+console.log("El número es igual a 10");}
+else {
+console.log("El número es menor a 10");}
