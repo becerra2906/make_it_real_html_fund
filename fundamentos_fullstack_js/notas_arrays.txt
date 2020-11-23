@@ -1,0 +1,13 @@
+nombre_arreglo.push sirve para agregar un elemento al final del arreglo.
+
+splice sirve para:
+
+1- Agregar un elemento al arreglo cuando se usa con tres argumentos. El primer
+argumento es la posicion donde se quiere insertar el elemento, el segundo es la
+posicion de inicio (entenderia yo pero el curso no lo dice) desde la que se va a 
+contar para ubicar el elemento, y el tercero es el elemento a agregar. 
+
+2- Eliminar un elemento del arreglo. Ahi se puede mandar con uno o dos argumentos. 
+El primer argumento es la posicion desde la que se va a borrar, y el segundo es 
+cuantos elementos se van a borrar. Si se envia solamente la posicion desde la
+que se quiere borrar, todos los elementos que le siguen se eliminaran. 
