@@ -33,19 +33,32 @@
 //	string.toLowerCase();
 //	while (i < string.length){
 //		if (string[i] === "a"){
-//			string[i]="4"}
+//		string[i]="4"}
 //		else if (string[i] === "e"){
-//                      string[i]="3"}
+//                    string[i]="3"}
 //              else if  (string[i] === "i"){
-//                        string[i]="1"}
+//                       string[i]="1"}
 //		else  if (string[i] === "o"){
-//                      string[i]="0"}
+//                    string[i]="0"}
 //		}
 //	i = i + 1;
-//	//string.join(",") = password;
+//	string.join(",") = password;
 //return  string;
 //console.log(string);
-//	}
-///	console.log(generatePassword("hola"));
+//	}	console.log(generatePassword("hola"));
 
-//voy a volver a revisar la parte de string methods y ma;ana pido ayuda en la llamada con german para ver si entiendo bien este tema.  
+//voy a volver a revisar OBla parte de string methods y ma;ana pido ayuda en la llamada con german para ver si entiendo bien este tema.
+
+function generatePassword(string){
+	var enUso = string.split("");
+	var i = 0
+	while (i < enUso.length){
+	if (enUso[i] === ""){
+	enUso.splice(i,1);
+}
+}    	i = i  + 1;
+return enUso
+	enUso.join("")
+console.log(enUso);
+}
+generatePassword("Hola");
