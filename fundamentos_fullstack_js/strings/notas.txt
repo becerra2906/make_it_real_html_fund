@@ -1,0 +1,15 @@
+substr sirve para poder sacar un pedazo de un string. Este metodo recibe dos 
+argumentos: desde que posicion se va a empezar a generar el substring y caracteres
+se van a usar para el substring.
+
+.join
+.split
+.startswith()
+.endswith()
+.touppercase()
+.tolowercase()
+
+.replace() sirve para reemplazar parte del string. Recibe dos argumentos
+el pedazo que se va a reemplazar, y lo que lo va a reemplazar.
+
+.includes sirve para saver si un string incluye un substring especifico.  
