@@ -1,0 +1,92 @@
+    objects are elements that help organise the data that relates to a specific element. It is created by defining the name of the object, then opening the {} and filling the keys with keys and values. This is an example of an object:
+    
+    var alejandro = {
+        nombre: "Alejandro",
+        apellido: "Becerra",
+        edad: 25,
+        profesion: "Administrador de empresas y futuro programador",
+        }
+        
+   Elements within an object can be printed using two different methods:
+   
+    1. console.log(alejandro.nombre);
+    
+    2.  Usando object[key]
+        por ejemplo, se define que llave del objeto se quiere extraer en una             variable, y luego se llama en el console log. Esto permite reutilizar           una funcion para imprimir diferentes elementos de un objeto. 
+            
+            
+            var llave = "apellido";
+                console.log(alejandro[llave]);
+                
+   to add elements to an object the following command can be used:
+        
+        alejandro.email = "alejobecerra1995@gmail.com";
+   
+   the same command can be used to edit the value saved by an element within the object:
+    
+    alejandro.email = "alejandro@instaleap.io";
+    
+    
+to delete an element within an object use:
+
+    delete object.element;
+    
+    for example
+    
+    delete alejandro.email;
+    
+there are two ways to go through the elements of an object:
+
+the first is by using 
+
+i do not understand it too well, so I will be using the other one
+
+    for (var llave in persona) {
+  if (persona.hasOwnProperty(llave)) {
+    console.log(persona[llave])
+  }
+}
+        
+  object.keys returns an array of the keys within the object, which then can be used for a .length function and implement a for loop or a while loop. (most probably what I am going to be using for the exercises and if I get an exercise for this)    
+        
+ var llaves = Object.keys(persona);
+for (var i=0; i < llaves.length; i++) {
+  var llave = llaves[i];
+  console.log(persona[llave]);
+} 
+         
+         
+   functions can be nested within objects. The "this" key allows to use an element of the object where the function is nested while executing the function. For example:
+   
+   var alejandro ={
+   name: "Alejandro",
+   surname:"Becerra",
+   sayHi: function(){
+        console.log("Hola me llamo " + this.name + " " + this.surname);
+        }
+        }
+    
+    functiions nested within an object can be invoked in the following way.
+    
+   person.sayHi()
+   
+   Objects can have elements that are arrays, thus creating complex structures. 
+   
+   for example an object can have an key whose value is an array:
+   
+        var alejandro = {
+        nombre: "Alejandro",
+        surname: "Becerra",
+        studies: ["BSc Business Studies", "MSc International Business",     "Fullstack Javascript Web Developer Bootcamp", "Executive Education in Product Management and Behavioural Economics"]
+        };
+        
+        Or viceversa 
+        
+        an array can contain several objects
+        
+        var products = [
+  { id: 1, name: "Leche", price: 120, categories: ["familiar", "comida"] },
+  { id: 2, name: "Arroz", price: 80, categories: ["familiar", "comida"] },
+  { id: 3, name: "Lavadora", price: 7800, categories: ["electrodomésticos"] }
+];
+
