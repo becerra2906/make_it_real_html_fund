@@ -66,9 +66,10 @@ function lista_ingredientes(){
 function order_ingredientes(){
     var i = 0;
     while (i< ingredientes.length){
-        console.log("Agrega " + ingredientes[i].medida + " de " + ingredientes[i].name);
+       var order = console.log("Agrega " + ingredientes[i].medida + " de " + ingredientes[i].name);
         i = i + 1;
     }
+    return order
 }
 
 function mix_ingredients(){
@@ -76,6 +77,6 @@ function mix_ingredients(){
 }
 
 console.log(mensaje_bienvenida);
-console.log(lista_ingredientes());
-console.log(order_ingredientes());
-console.log(mix_ingredients());
+lista_ingredientes();
+order_ingredientes();
+mix_ingredients();
