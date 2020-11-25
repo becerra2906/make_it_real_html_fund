@@ -57,7 +57,7 @@ var  ingredientes = [
 function lista_ingredientes(){
     var i = 0; 
     while (i<ingredientes.length){
-        var lista = console.log(ingredientes[i].id + "- " +ingredientes[i].name + " " + ingredientes[i].medida);
+        var lista = console.log(ingredientes[i].id + "- " +ingredientes[i].name + ", " + ingredientes[i].medida);
         i = i + 1;
     }
     return lista;
