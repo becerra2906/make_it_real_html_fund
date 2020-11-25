@@ -13,11 +13,18 @@
 //}
 
 // primera ejercicio de receta maestra
+// 
 
 
-var ingredientes = [
-    {ingrediente1: "leche en polvo", medida1: "1 litro"},
-    {ingrediente2: "chocolate en barra", medida2: "3 barras"},
-    {ingrediente3: "azucar", medida3: "3 gramos"}]
+var ingredientes = {
+ingrediente1: {id: 1, name:"leche en polvo", medida1: "1 litro"},
+ingrediente2: {id: 2, name :"chocolate en barra", medida2: "3 barras"},
+ingrediente3: {id: 3, name: "azucar", medida3: "3 gramos"}}
+function receta(){
+    console.log("Necesitas los siguientes ingredientes: ")
+    console.log(ingredientes.ingrediente1.id + " " + ingredientes.ingrediente1.name + ", " + ingredientes.ingrediente1.medida1);
+    console.log(ingredientes.ingrediente2.id + " " + ingredientes.ingrediente2.name + ", " + ingredientes.ingrediente2.medida2);
+    console.log(ingredientes.ingrediente3.id + " " + ingredientes.ingrediente3.name + ", " + ingredientes.ingrediente2.medida3);
+}
 
-console.log(ingredientes);
+console.log(receta())
